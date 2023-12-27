@@ -1,0 +1,89 @@
+#file-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  padding: 18px 0px 12px;
+}
+
+.file-list-item {
+  background-color: #373742;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 18px;
+  flex-wrap: wrap;
+}
+
+.file-bn-container {
+  flex: 0 0 300px;
+  margin-bottom: 12px;
+}
+
+.file-bn-container a {
+  text-decoration: none;
+}
+
+.file-bn-container img {
+  width: 100%;
+}
+
+.file-bn-empty {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  font-size: 120%;
+  font-weight: bold;
+  color: #fff3;
+}
+
+.file-info-container {
+  flex: 1 1 250px;
+}
+
+.file-title {
+  font-size: 150%;
+  font-weight: bold;
+  margin: 0;
+}
+
+.file-title-artist-divider {
+  color: #fffb;
+}
+
+.file-artist {
+  color: #fff8;
+}
+
+.gray {
+  color: #fffa;
+  margin-right: 2px;
+}
+
+.file-link-list {
+  margin-top: 10px;
+}
+
+.link-btn {
+  background-color: #e4e9f2;
+  padding: 5px 8px;
+  font-size: 0.9em;
+  display: inline-block;
+  border-radius: 20px 20px;
+  margin-right: 12px;
+  margin-top: 6px;
+}
+
+.link-btn a {
+  color: #2f2f38;
+  text-decoration: none;
+}
+
+.link-icon {
+  display: inline;
+  margin: 0 0.15em -0.08em;
+  padding: 0;
+  vertical-align: baseline;
+  height: 1em;
+}
