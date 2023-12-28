@@ -38,13 +38,14 @@
   function createLinkButton(type, link) {
     const iconURL = LINK_TYPE_TO_ICON[type];
     const text = LINK_TYPE_TO_TEXT[type];
-    let elem = document.createElement("span");
+    let elem = document.createElement("a");
     elem.className = "link-btn glow-on-hover";
+    elem.href = link;
+    elem.target = "_blank";
+    elem.rel = "noreferrer noopener";
     elem.innerHTML = `
-      <a href="${link}" target="_blank" rel="noreferrer noopener">
-        <img class="link-icon" src="${iconURL}" />
-        ${text}
-      </a>
+      <img class="link-icon" src="${iconURL}" />
+      ${text}
     `;
     return elem;
   }
@@ -57,8 +58,7 @@
       <div class="file-info-container">
         <h2 class="file-title">
           ${fileInfo.title}
-          <span class="file-title-artist-divider">/</span>
-          <span class="file-artist">${fileInfo.artist}</span>
+          <span class="file-artist">/ ${fileInfo.artist}</span>
         </h2>
         <p>
           <span class="gray">released:</span> ${fileInfo.date}<br/>

@@ -15,7 +15,7 @@
 }
 
 .file-bn-container {
-  flex: 0 0 300px;
+  flex: 0 1 300px;
   margin-bottom: 12px;
 }
 
@@ -29,27 +29,23 @@
 
 .file-bn-empty {
   display: flex;
-  height: 80px;
+  aspect-ratio: 408 / 164;
   justify-content: center;
   align-items: center;
   user-select: none;
   font-size: 120%;
   font-weight: bold;
-  color: #fff3;
+  color: #616178;
 }
 
 .file-info-container {
-  flex: 1 1 250px;
+  flex: 1 1 240px;
 }
 
 .file-title {
   font-size: 150%;
   font-weight: bold;
   margin: 0;
-}
-
-.file-title-artist-divider {
-  color: #fffb;
 }
 
 .file-artist {
@@ -65,7 +61,7 @@
   margin-top: 10px;
 }
 
-.link-btn {
+.link-btn, .link-btn:hover, .link-btn:active {
   background-color: #e4e9f2;
   padding: 5px 8px;
   font-size: 0.9em;
@@ -73,11 +69,9 @@
   border-radius: 20px 20px;
   margin-right: 12px;
   margin-top: 6px;
-}
-
-.link-btn a {
   color: #2f2f38;
   text-decoration: none;
+  user-select: none;
 }
 
 .link-icon {
