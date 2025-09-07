@@ -50,4 +50,37 @@ const contents = [
       dl: "https://www.dropbox.com/scl/fi/nt6sxfy32i8tg884ybfoh/Step_This_Way.zip?rlkey=7lkwuouyilgih3babr8yotyk4&dl=0",
     },
   },
+  {
+    title: "Mulch",
+    artist: "Sampling Masters MEGA",
+    date: "2024-10-18",
+    bannerURL: "media/Mulch.png",
+    pack: "moD Jam MAX",
+    links: {
+      yt: "https://www.youtube.com/watch?v=k3WTJqDBFWk",
+      pack: "http://pipebomb.zip/notitg/moDJamMAX",
+    },
+  },
+  {
+    title: "Reduxation",
+    artist: "aran",
+    date: "2025-02-23",
+    bannerURL: "media/Reduxation.png",
+    pack: "Mods Boot Jamp",
+    links: {
+      yt: "https://www.youtube.com/watch?v=zxkoQCeb_D0",
+      pack: "https://pipebomb.zip/notitg/modsbootjamp",
+    },
+  },
+  {
+    title: "市民薄明 (Shimin Hakumei)",
+    artist: "sanmal feat. 重音テト (Kasane Teto)",
+    date: "2025-06-06",
+    bannerURL: "media/Shimin Hakumei.png",
+    pack: "Mod Jam Easy Modo 2",
+    links: {
+      yt: "https://www.youtube.com/watch?v=U0Aa6us_ZpM",
+      pack: "https://pipebomb.zip/notitg/modjameasymodo2",
+    },
+  },
 ];
