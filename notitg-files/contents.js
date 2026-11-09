@@ -83,4 +83,15 @@ const contents = [
       pack: "https://pipebomb.zip/notitg/modjameasymodo2",
     },
   },
+  {
+    title: "偶然の俺 (Guzen no Ore)",
+    artist: "眠田峯 feat. 初音ミク (Nemuta Mine feat. Hatsune Miku)",
+    date: "2026-01-31",
+    bannerURL: "media/Guzen no Ore.png",
+    pack: "Mod Jam Underground",
+    links: {
+      yt: "https://www.youtube.com/watch?v=ZLyXq9G8nAs",
+      pack: "https://lemmaeof.gay/assets/mjunderground.zip",
+    },
+  },
 ];
